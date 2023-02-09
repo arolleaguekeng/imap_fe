@@ -50,13 +50,14 @@ class _HomeContent extends State<HomeContent> {
                       () {
                         currentScreen = DashboardScreen();
                         currentTab = 0;
+
                       },
                     );
                   },
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.home_sharp,
+                      Icon(Icons.room_rounded,
                           color: currentTab == 0 ? primaryColor : Colors.grey),
                       Text(
                         'Home',
